@@ -4,7 +4,7 @@ import bodyParser from 'body-parser';
 import {filterImageFromURL, deleteLocalFiles} from './util/util';
 
 (async () => {
-
+  
   // Init the Express application
   const app = express();
 
@@ -19,7 +19,7 @@ import {filterImageFromURL, deleteLocalFiles} from './util/util';
     const { image_url } = req.query
 
     if(image_url) {
-      let aw = await filterImageFromURL(image_url)
+      let aw = await filterImageFromURL(image_url.toString())
       res.sendFile(aw)
     }
     fs.readdir('./src/util/tmp/', (err: any, files: any[]) => {
