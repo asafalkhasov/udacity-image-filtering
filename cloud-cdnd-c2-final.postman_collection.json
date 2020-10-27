@@ -6,19 +6,19 @@
 	},
 	"item": [
 		{
-			"name": "http://localhost:8082/filteredimage?image_url=https://timedotcom.files.wordpress.com/2019/03/kitten-report.jpg",
+			"name": "http://localhost:8082/filteredimage?image_url=https://upload.wikimedia.org/wikipedia/commons/b/bd/Golden_tabby_and_white_kitten_n01.jpg",
 			"request": {
 				"auth": {
 					"type": "basic",
 					"basic": [
 						{
 							"key": "username",
-							"value": "test",
+							"value": "pass",
 							"type": "string"
 						},
 						{
 							"key": "password",
-							"value": "test",
+							"value": "pass",
 							"type": "string"
 						}
 					]

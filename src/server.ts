@@ -16,7 +16,7 @@ export function requireAuth(req: Request, res: Response, next: NextFunction){
         return res.status(401).send({message: "Invalid token"});
     }
     const [username, password] = decodedToken;
-    if(username != "test" || password != "test"){
+    if(username != "test" || password != "pass"){
         return res.status(401).send({message: "Invalid credentials"});
     }
     return next();
