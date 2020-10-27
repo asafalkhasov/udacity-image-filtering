@@ -1,5 +1,8 @@
 # Udagram Image Filtering Microservice
 
+## Important
+URL to the AWS submission - http://udacity-image-filtering-dev.us-west-2.elasticbeanstalk.com.The postman collection contains the BasicAuth token (username: test, password: test) to access the endpoint.
+
 Udagram is a simple cloud application developed alongside the Udacity Cloud Engineering Nanodegree. It allows users to register and log into a web client, post photos to the feed, and process photos using an image filtering microservice.
 
 The project is split into three parts:
