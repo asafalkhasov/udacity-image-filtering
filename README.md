@@ -1,7 +1,7 @@
 # Udagram Image Filtering Microservice
 
 ## AWS submission URL
-http://udacity-image-filtering-dev.us-west-2.elasticbeanstalk.com.
+http://image-filter-starter-code-dev22.eu-central-1.elasticbeanstalk.com
 
 ## BasicAuth token 
 Credential (username: test, password: pass) to access the endpoint.
