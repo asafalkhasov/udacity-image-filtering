@@ -41,7 +41,7 @@ export function requireAuth(req: Request, res: Response, next: NextFunction){
             return;
         }
         const filteredImage = await filterImageFromURL(image_url);
-        res.sendFile(filteredImage, () => {
+        res.status(200).sendFile(filteredImage, () => {
             //Delete the file
             deleteLocalFiles([filteredImage]);
         });
